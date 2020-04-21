@@ -20,8 +20,8 @@ class IndexPage extends React.Component {
         <h1>Hey people</h1>
         <p>I'm Naz, welcome to my site.</p>
         <p>
-          Inside you'll find some things that have fallen out of my brain. I
-          hope you like them.
+          Inside you'll find some things that fell out of my brain at one time
+          or another. I hope you like them.
         </p>
         <p>If you don't, that's cool too.</p>
         <Link to="/blog/">
