@@ -2,7 +2,7 @@
 path: flirting-with-bash
 date: 2020-04-21T19:22:56.560Z
 title: Flirting with bash
-description: Dipping my toes into the waters of bash
+description: Dipping my toes into the murky (but surprisingly shallow) waters of bash
 tags:
   - coding
 ---
