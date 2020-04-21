@@ -2,7 +2,7 @@
 path: jones-ice-cream-parlour
 date: 2017-07-16T16:23:12.635Z
 title: Jones' Ice Cream Parlour
-description: Here's a weird little thing I wrote a while back
+description: Here's a weird little thing I wrote a while back.
 ---
 Susie and myself walked into the ice cream parlour. It was called ‘Sundae Morning’. Susie giggled. I did not.
 
