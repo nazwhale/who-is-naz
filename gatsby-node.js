@@ -18,6 +18,7 @@ exports.createPages = ({ graphql, actions }) => {
                 slug
               }
               frontmatter {
+                tags
                 title
               }
             }
@@ -30,7 +31,7 @@ exports.createPages = ({ graphql, actions }) => {
       throw result.errors
     }
 
-    // Create blog posts pages.
+    // Create blog posts pages
     const posts = result.data.allMdx.edges
 
     posts.forEach((post, index) => {
@@ -48,7 +49,26 @@ exports.createPages = ({ graphql, actions }) => {
       })
     })
 
-    return null
+    // Create tag pages
+    // Tag pages:
+    let tags = []
+    // Iterate through each post, putting all found tags into `tags`
+    posts.forEach(edge => {
+      tags = tags.concat(edge.node.frontmatter.tags)
+    })
+
+    // Make tag pages
+    tags.forEach(tag => {
+      const tagPath = `/tags/${tag}/`
+
+      createPage({
+        path: tagPath,
+        component: path.resolve(`src/templates/tags.js`),
+        context: {
+          tag,
+        },
+      })
+    })
   })
 }
 
@@ -64,3 +84,5 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     })
   }
 }
+
+/// --------
