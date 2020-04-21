@@ -1,8 +1,9 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Button from "../components/button"
 
 class NotFoundPage extends React.Component {
   render() {
