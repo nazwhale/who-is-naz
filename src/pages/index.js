@@ -24,7 +24,7 @@ class IndexPage extends React.Component {
         <p>I'm Naz, welcome to my site.</p>
         <p>
           Inside you'll find some things I've built and some words I've said. I
-          hope you enjoy it all.
+          hope you enjoy it.
         </p>
         <p>If you don't, that's ok too.</p>
         <Link to="/blog/">
