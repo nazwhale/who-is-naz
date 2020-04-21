@@ -1,7 +1,7 @@
 ---
 path: jones-ice-cream-parlour
 date: 2017-07-16T16:23:12.635Z
-title: Jones' Ice Cream Parlour
+title: Jones' ice cream parlour
 description: Here's a weird little thing I wrote a while back.
 tags:
   - words
