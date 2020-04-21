@@ -13,10 +13,10 @@ const TagWrapper = styled.button`
   cursor: pointer;
   letter-spacing: 2px;
 
-  background: ${props => props.props.background || "#002E4D"};
-  color: ${props => props.props.color || "rgb(255, 255, 255)"};
+  background: ${props => props.props.background || "#e27d60"};
+  color: ${props => props.props.color || "#272727"};
   font-size: ${props => props.props.fontSize || "12px"};
-  font-weight: ${props => props.props.fontWeight || "400"};
+  font-weight: ${props => props.props.fontWeight || "800"};
   border-radius: ${props => props.props.radius || "6px"};
   margin-top: ${props => props.props.marginTop};
   margin-bottom: ${props => props.props.marginBottom};

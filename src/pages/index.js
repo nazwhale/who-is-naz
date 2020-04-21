@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import scotland from "../../content/assets/scotland.jpg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -15,18 +16,14 @@ class IndexPage extends React.Component {
           title="Home"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <h1>
-          Hey people{" "}
-          <span role="img" aria-label="wave emoji">
-            👋
-          </span>
-        </h1>
+        <img style={{ margin: 0 }} src={scotland} alt="Potentially Naz" />
+        <h1>Hey people</h1>
         <p>I'm Naz, welcome to my site.</p>
         <p>
-          Inside you'll find some things I've built and some words I've said. I
-          hope you enjoy it.
+          Inside you'll find some things that have fallen out of my brain. I
+          hope you like them.
         </p>
-        <p>If you don't, that's ok too.</p>
+        <p>If you don't, that's cool too.</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>
