@@ -5,6 +5,7 @@ import { MDXRenderer } from "gatsby-plugin-mdx"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Tag from "../components/tag"
 import { rhythm, scale } from "../utils/typography"
 
 class BlogPostTemplate extends React.Component {
@@ -30,7 +31,13 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+
         <MDXRenderer>{post.body}</MDXRenderer>
+
+        {post.frontmatter.tags.map(tag => {
+          return <Tag marginBottom="1.75rem">{tag}</Tag>
+        })}
+
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -85,6 +92,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
