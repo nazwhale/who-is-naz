@@ -18,6 +18,6 @@ We met the owner, a bland, featureless man by the name of Jones. His shop was co
 
 This reminded me of a lecture I’d once attended on relativity. A fusty old chap had reeled off how us humans find it impossible to value things without comparing them to other things. 
 
-In its gloomy décor, Jones’ shop was a prime example. Most icey-cream selections are merely pleasing to the eye, colourful. Nice. \
-\
+In its gloomy décor, Jones’ shop was a prime example. Most icey-cream selections are merely pleasing to the eye, colourful. Nice.
+
 In the greyness around it, Jones’ _beamed_.
