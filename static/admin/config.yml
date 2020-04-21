@@ -16,3 +16,7 @@ collections:
       - { name: title, label: Title }
       - { name: description, label: Description }
       - { name: body, label: Body, widget: markdown }
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["coding"]
