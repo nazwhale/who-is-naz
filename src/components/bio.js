@@ -34,12 +34,12 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in London
-              building useful things.
-              {` `}
+              Written by <strong>{author}</strong>. But who <em>is</em> he? You
+              could{" "}
               <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
+                follow him on Twitter
               </a>
+              , perhaps that'll give you a clue or two.
             </p>
           </Container>
         )

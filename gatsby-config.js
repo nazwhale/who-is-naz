@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     // edit below
     title: `Who is Naz?`,
-    author: `Naz Malik`,
+    author: `Naz`,
     description: `Naz's site.`,
     siteUrl: `https://whoisnaz.netlify.app/`,
     social: {
