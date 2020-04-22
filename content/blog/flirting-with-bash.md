@@ -6,28 +6,23 @@ description: Dipping my toes into the murky (but surprisingly shallow) waters of
 tags:
   - coding
 ---
-Bash is one of those things that all the "serious old school" devs at work seem to be really good at. It's all "Oh that's easy you just `sed -fqz` and then `foppyargs --yug` and then flip that into an `morp {:-::}` and you're done. Easy". 
+Bash is one of those things that all the old school people at work seem to be really good at. To me, it seems like "you just `sed -fqz`, `foppyargs --yug`, then flip that into an `morp {:-::}` and you're done."
 
-While I'm over here with my `cd` and not much else.
-
-A few weeks ago I tried to write a bash script and found out to my shock that there's actually not that much to know. 
+A few weeks ago I tried to write a bash script and was shocked to realise there's not that much to know before everyone thinks you're a bash wizard.
 
 It's just horribly documented and explained.
 
-I'll show you what I learnt...
+Here's what I learnt...
 
 ## Bash? Shell? Unix? wtf
 
 I've been pretty much using these terms interchangeably. Turns out...
-
-
 
 ## Bash for beginners
 
 If you're learning to code, here's the essentials. 
 
 These commands will get you moving around the terminal and doing simple operations to files and directories (creating, deleting, renaming etc).
-
 
 ```shell
 mkdir fruit
@@ -37,8 +32,6 @@ ls # banana.txt
 rm banana.txt
 pwd # ~/fruit
 ```
-
-
 
 ## Bash for improvers
 
@@ -51,8 +44,6 @@ tail
 ```
 
 One thing I never really internalised was the difference between `cat` and `echo`. Turns out...
-
-
 
 ## Scary bash
 
