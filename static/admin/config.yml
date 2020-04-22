@@ -20,3 +20,12 @@ collections:
         name: "tags"
         widget: "list"
         default: ["coding"]
+
+  - name: stuff
+    label: Stuff
+    folder: content/stuff
+    create: true
+    fields:
+      - { name: date, label: Date, widget: date }
+      - { name: title, label: Title }
+      - { name: link, label: Link }
