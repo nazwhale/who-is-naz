@@ -25,10 +25,9 @@ class IndexPage extends React.Component {
         <p>If you don't, that's cool too.</p>
         <p>So, where next?</p>
         <p>
-          How about some <Link to="/blog/">words I've written</Link>. Or you
-          could check out a few <Link to="/things/">things I've made</Link>. If
-          you're really bored, there's this place full of{" "}
-          <Link to="/stuff/">stuff I'm fond of</Link>.
+          How about some <Link to="/blog/">words</Link>. Or you could check out
+          a few <Link to="/things/">things</Link>. If you're really bored,
+          there's this place full of <Link to="/stuff/">stuff</Link>.
         </p>
       </Layout>
     )
