@@ -27,8 +27,9 @@ class StuffPage extends React.Component {
       },
       {
         name: "this chap talking about classical and romantic thinking",
-        href: "https://www.youtube.com/watch?v=nyDndEzmAZE&list=LLA2f28Wo0r93bdSFmQZPasA"
-      }
+        href:
+          "https://www.youtube.com/watch?v=nyDndEzmAZE&list=LLA2f28Wo0r93bdSFmQZPasA",
+      },
       {
         name: "things Dan Abramov doesn't know",
         href: "https://overreacted.io/things-i-dont-know-as-of-2018/",
@@ -39,7 +40,8 @@ class StuffPage extends React.Component {
       },
       {
         name: "train guy",
-        href: "https://www.youtube.com/watch?v=d2VoHdpj2ZA&list=LLA2f28Wo0r93bdSFmQZPasA&index=10"
+        href:
+          "https://www.youtube.com/watch?v=d2VoHdpj2ZA&list=LLA2f28Wo0r93bdSFmQZPasA&index=10",
       },
       {
         name: "Julia Evans helping everyone be less of a dick",
