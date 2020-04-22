@@ -9,9 +9,16 @@ class Layout extends React.Component {
     const { location, title, children } = this.props
     const rootPath = `${__PATH_PREFIX__}/`
     const blogPath = `${__PATH_PREFIX__}/blog/`
+    const thingsPath = `${__PATH_PREFIX__}/things/`
+    const stuffPath = `${__PATH_PREFIX__}/stuff/`
     let header
 
-    if (location.pathname === rootPath || location.pathname === blogPath) {
+    if (
+      location.pathname === rootPath ||
+      location.pathname === blogPath ||
+      location.pathname === thingsPath ||
+      location.pathname === stuffPath
+    ) {
       header = (
         <h1
           style={{

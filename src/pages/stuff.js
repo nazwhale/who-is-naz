@@ -9,54 +9,7 @@ class StuffPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-
-    const stuff = [
-      {
-        name: "these peculiar websites",
-        href: "https://www.newrafael.com/websites/",
-      },
-      {
-        name: "monday morning mixtapes",
-        href:
-          "http://www.stampthewax.com/category/m-i-x-e-s/monday-morning-mixtapes/",
-      },
-      {
-        name: "what Mary Rose Cook does when a student asks for help",
-        href:
-          "https://maryrosecook.com/blog/post/responding-to-a-students-request-for-help",
-      },
-      {
-        name: "this chap talking about classical and romantic thinking",
-        href:
-          "https://www.youtube.com/watch?v=nyDndEzmAZE&list=LLA2f28Wo0r93bdSFmQZPasA",
-      },
-      {
-        name: "things Dan Abramov doesn't know",
-        href: "https://overreacted.io/things-i-dont-know-as-of-2018/",
-      },
-      {
-        name: "menswear dog",
-        href: "https://www.instagram.com/mensweardog/",
-      },
-      {
-        name: "train guy",
-        href:
-          "https://www.youtube.com/watch?v=d2VoHdpj2ZA&list=LLA2f28Wo0r93bdSFmQZPasA&index=10",
-      },
-      {
-        name: "Julia Evans helping everyone be less of a dick",
-        href: "https://jvns.ca/blog/2017/04/27/no-feigning-surprise/",
-      },
-      {
-        name: "all of Wait But Why",
-        href: "https://waitbutwhy.com/",
-      },
-      {
-        name: "this guy's kooky chess videos",
-        href:
-          "https://www.youtube.com/watch?v=_dnk-1T_nKs&list=PLsgivuu-AHKt-7BsFpyTN0vufeQ20y7bq&index=4",
-      },
-    ]
+    const stuff = data.allMdx.nodes
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -65,9 +18,10 @@ class StuffPage extends React.Component {
         <p>Here's some stuff that I'm fond of...</p>
         <div style={{ margin: "20px 0 40px" }}>
           {stuff.map(thing => {
-            const title = thing.name
+            const title = thing.frontmatter.title
+            const href = thing.frontmatter.link
             return (
-              <div key={thing.name}>
+              <div key={href}>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -77,7 +31,7 @@ class StuffPage extends React.Component {
                     style={{ boxShadow: `none` }}
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={thing.href}
+                    href={href}
                   >
                     {title}
                   </a>
@@ -94,11 +48,19 @@ class StuffPage extends React.Component {
 
 export default StuffPage
 
-export const pageQuery = graphql`
-  query {
+export const stuffQuery = graphql`
+  query StuffQuery {
     site {
       siteMetadata {
         title
+      }
+    }
+    allMdx(filter: { fileAbsolutePath: { regex: "/content/stuff/" } }) {
+      nodes {
+        frontmatter {
+          link
+          title
+        }
       }
     }
   }

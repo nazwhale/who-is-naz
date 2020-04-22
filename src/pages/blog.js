@@ -52,13 +52,16 @@ class Blog extends React.Component {
 export default Blog
 
 export const pageQuery = graphql`
-  query {
+  query BlogQuery {
     site {
       siteMetadata {
         title
       }
     }
-    allMdx(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMdx(
+      filter: { fileAbsolutePath: { regex: "/content/blog/" } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           excerpt

@@ -23,7 +23,6 @@ class IndexPage extends React.Component {
           or another. I hope you like them.
         </p>
         <p>If you don't, that's cool too.</p>
-        <p>So, where next?</p>
         <p>
           How about some <Link to="/blog/">words</Link>. Or you could check out
           a few <Link to="/things/">things</Link>. If you're really bored,
