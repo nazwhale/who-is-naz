@@ -21,12 +21,33 @@ class StuffPage extends React.Component {
           "http://www.stampthewax.com/category/m-i-x-e-s/monday-morning-mixtapes/",
       },
       {
+        name: "what Mary Rose Cook does when a student asks for help",
+        href:
+          "https://maryrosecook.com/blog/post/responding-to-a-students-request-for-help",
+      },
+      {
+        name: "this chap talking about classical and romantic thinking",
+        href: "https://www.youtube.com/watch?v=nyDndEzmAZE&list=LLA2f28Wo0r93bdSFmQZPasA"
+      }
+      {
         name: "things Dan Abramov doesn't know",
         href: "https://overreacted.io/things-i-dont-know-as-of-2018/",
       },
       {
+        name: "menswear dog",
+        href: "https://www.instagram.com/mensweardog/",
+      },
+      {
+        name: "train guy",
+        href: "https://www.youtube.com/watch?v=d2VoHdpj2ZA&list=LLA2f28Wo0r93bdSFmQZPasA&index=10"
+      },
+      {
         name: "Julia Evans helping everyone be less of a dick",
         href: "https://jvns.ca/blog/2017/04/27/no-feigning-surprise/",
+      },
+      {
+        name: "all of Wait But Why",
+        href: "https://waitbutwhy.com/",
       },
       {
         name: "this guy's kooky chess videos",
