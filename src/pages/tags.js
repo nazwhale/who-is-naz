@@ -12,28 +12,23 @@ class Tags extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <section className="section">
-          <SEO title={`Tags | ${siteTitle}`} />
-          <div>
-            <div>
-              <div style={{ marginBottom: "6rem" }}>
-                <h1>Tags</h1>
-                <ul>
-                  {group.map(tag => (
-                    <li key={tag.fieldValue}>
-                      <Link
-                        style={{ boxShadow: `none` }}
-                        to={`/tags/${tag.fieldValue}/`}
-                      >
-                        {tag.fieldValue} ({tag.totalCount})
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+        <SEO title={`Tags | ${siteTitle}`} />
+        <div style={{ marginBottom: "6rem" }}>
+          <h1>Tags</h1>
+          <ul style={{ listStyleType: "none" }}>
+            {group.map(tag => (
+              <li key={tag.fieldValue}>
+                <Link
+                  style={{ boxShadow: `none` }}
+                  to={`/tags/${tag.fieldValue}/`}
+                >
+                  {tag.fieldValue} ({tag.totalCount})
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <Link to="/">Go Home</Link>
+        </div>
       </Layout>
     )
   }

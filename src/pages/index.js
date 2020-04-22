@@ -4,7 +4,6 @@ import scotland from "../../content/assets/scotland.jpg"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Button from "../components/button"
 
 class IndexPage extends React.Component {
   render() {
@@ -24,9 +23,13 @@ class IndexPage extends React.Component {
           or another. I hope you like them.
         </p>
         <p>If you don't, that's cool too.</p>
-        <Link to="/blog/">
-          <Button marginTop="35px">Go to Blog</Button>
-        </Link>
+        <p>So, where next?</p>
+        <p>
+          How about some <Link to="/blog/">words I've written</Link>. Or you
+          could check out a few <Link to="/things/">things I've made</Link>. If
+          you're really bored, there's this place full of{" "}
+          <Link to="/stuff/">stuff I'm fond of</Link>.
+        </p>
       </Layout>
     )
   }
