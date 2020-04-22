@@ -6,7 +6,7 @@ description: Dipping my toes into the murky (but surprisingly shallow) waters of
 tags:
   - coding
 ---
-Bash is one of those things that all the old school people at work seem to be really good at. To me, it seems like "you just `sed -fqz`, `foppyargs --yug`, then flip that into an `morp {:-::}` and you're done."
+Bash is one of those things that all the old school people at work seem to be really good at. To uncultivated me, it seems like you gotta `sed -fqz`, `foppyargs --yug`, then flip the results into an `morp {:-::}` pipe and you're golden.
 
 A few weeks ago I tried to write a bash script and was shocked to realise there's not that much to know before everyone thinks you're a bash wizard.
 
