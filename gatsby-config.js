@@ -4,7 +4,7 @@ module.exports = {
     title: `Who is Naz?`,
     author: `Naz`,
     description: `Naz's site.`,
-    siteUrl: `https://whoisnaz.netlify.app/`,
+    siteUrl: `https://www.whoisnaz.com/`,
     social: {
       twitter: `nazwhale`,
     },
