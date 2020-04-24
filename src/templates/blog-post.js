@@ -29,7 +29,7 @@ class BlogPostTemplate extends React.Component {
             marginTop: rhythm(-1),
           }}
         >
-          {post.frontmatter.date}
+          {`${post.frontmatter.date} • ${post.timeToRead} min read`}
         </p>
 
         <MDXRenderer>{post.body}</MDXRenderer>
@@ -100,6 +100,7 @@ export const pageQuery = graphql`
         description
         tags
       }
+      timeToRead
     }
   }
 `
