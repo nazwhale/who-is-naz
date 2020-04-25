@@ -9,7 +9,7 @@ tags:
 ---
 ![oily veg on toast](/assets/00000img_00000_burst20200425113232068_cover.jpg)
 
-A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see on the shelves of Turkish shops and that.
+A little while back I started keeping jars of oily veg in my fridge, 'cos they’re healthy and last forever. The sorts of jars you see on the shelves of Turkish shops and that.
 
 I started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
 
