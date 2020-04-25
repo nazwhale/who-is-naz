@@ -9,8 +9,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
-
-function SEO({ description, lang, meta, keywords, title }) {
+jl
+function SEO({ description, lang, meta, keywords, title, featured_image_url }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +26,10 @@ function SEO({ description, lang, meta, keywords, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+
+  if (featured_image_url === "") {
+    featured_image_url = "https://i.imgur.com/iI0D8O3.jpg"
+  }
 
   return (
     <Helmet
@@ -52,8 +56,12 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: featured_image_url,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -66,6 +74,10 @@ function SEO({ description, lang, meta, keywords, title }) {
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: featured_image_url,
         },
         {
           name: `google-site-verification`,
@@ -90,6 +102,7 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   description: ``,
+  featured_image_url: ``,
 }
 
 SEO.propTypes = {
@@ -98,6 +111,7 @@ SEO.propTypes = {
   meta: PropTypes.arrayOf(PropTypes.object),
   keywords: PropTypes.arrayOf(PropTypes.string),
   title: PropTypes.string.isRequired,
+  featured_image_url: PropTypes.string,
 }
 
 export default SEO
