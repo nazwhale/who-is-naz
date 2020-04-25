@@ -3,7 +3,7 @@ module.exports = {
     // edit below
     title: `Who is Naz?`,
     author: `Naz`,
-    description: `Naz's site.`,
+    description: `Who is Naz?`,
     siteUrl: `https://www.whoisnaz.com/`,
     social: {
       twitter: `nazwhale`,
