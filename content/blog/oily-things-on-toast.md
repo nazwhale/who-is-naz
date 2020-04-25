@@ -1,0 +1,52 @@
+---
+path: oily-things-on-toast
+date: 2020-04-25T11:04:56.770Z
+title: Oily things on toast
+description: Here’s a lazy tasty thing you can do
+featured_image_url: 'https://i.imgur.com/5IrUKSX.jpg'
+tags:
+  - food
+---
+![oily veg on toast](/assets/00000img_00000_burst20200425113232068_cover.jpg)
+
+A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see shelves of at Turkish shops and the like.
+
+I soon started using these jars of oily goodness for my midnight snacks. What happened was so good. It feels like cheating. 
+
+## **Steps**
+
+1. Get your jars out, chop up some of what’s inside. 
+2. Toast some bread
+3. Put your stuff on the toast. 
+4. Cover with olive oil and salt and pepper. 
+5. You just made a fancy bruschetta type thing in 5 minutes
+
+## **Foods**
+
+Here’s some of the sorts of things that I find work well. You don’t need all of these things by any means, 2 or 3 types of veg will do. 
+
+Something tart and something fresh is usually a good bet. A bit of spice and tang if you want to go to lip-smacking places.
+
+That said, you can really pile it on if you’re feeling fancy.
+
+**Veg in jar**
+
+* Red pepper
+* Artichokes
+* Sun-dried tomatoes (yeah yeah tomatoes are fruit whatever go away)
+
+**Veg not in jars**
+
+* Roast aubergine
+* Olives
+* Cherry tomatoes (still not listening)
+* Garlic
+
+**Extras**
+
+* Lemon juice
+* Any crumbly cheese (Manchego, feta, etc.)
+* Chilli flakes
+* Oregano
+* Rosemary
+* Basil
