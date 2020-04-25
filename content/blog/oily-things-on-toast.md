@@ -9,9 +9,9 @@ tags:
 ---
 ![oily veg on toast](/assets/00000img_00000_burst20200425113232068_cover.jpg)
 
-A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see shelves of at Turkish shops and that.
+A little while back I started keeping jars of oily veg in my fridge, 'cos they’re healthy and last forever. The sorts of jars you see on the shelves of Turkish shops and that.
 
-I soon started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
+I started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
 
 ## **Steps**
 
@@ -23,11 +23,11 @@ I soon started using these jars of oily goodness for my midnight snacks. What ha
 
 ## **Foods**
 
-Here’s some of the sorts of things work well. You don’t need all of them by any means, 2 or 3 bits will do. 
+Here’s some of the sorts of things that work well. You don’t need all of them by any means, pick a few.
 
 That said, you can really pile it on if you’re feeling fancy.
 
-Something tart and salty against something fresh and herby is usually a good bet. A bit of spice and tang will transport you to lip-smacking levels.
+Something tart and salty against something fresh and herby is a good bet. A bit of spice and tang will transport you to lip-smacking levels.
 
 **Veg in jars**
 
@@ -42,11 +42,14 @@ Something tart and salty against something fresh and herby is usually a good bet
 * Cherry tomatoes (still not listening)
 * Garlic
 
-**Extras**
+**Herby things**
+
+* Oregano
+* Rosemary
+* Basil
+
+**Not herby things**
 
 * Any crumbly cheese (manchego, feta, etc.)
 * Lemon juice
 * Chilli flakes
-* Oregano
-* Rosemary
-* Basil
