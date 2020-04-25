@@ -9,24 +9,18 @@ class ThingsPage extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-
-    const things = [
-      {
-        name: "furlough pay calculator",
-        href: "https://www.furloughpaycalculator.co.uk/",
-      },
-    ]
+    const things = data.allMdx.nodes
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Things" />
         <h1>Things</h1>
-        <p>Here's a few things that I've made or helped with...</p>
+        <p>Here's a few things that I've made or helped make...</p>
         <div style={{ margin: "20px 0 40px" }}>
           {things.map(thing => {
-            const title = thing.name
+            const { title, description, link } = thing.frontmatter
             return (
-              <div key={thing.name}>
+              <div key={link}>
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
@@ -36,11 +30,16 @@ class ThingsPage extends React.Component {
                     style={{ boxShadow: `none` }}
                     target="_blank"
                     rel="noopener noreferrer"
-                    href={thing.href}
+                    href={link}
                   >
                     {title}
                   </a>
                 </h3>
+                <p
+                  dangerouslySetInnerHTML={{
+                    __html: description,
+                  }}
+                />
               </div>
             )
           })}
@@ -53,11 +52,20 @@ class ThingsPage extends React.Component {
 
 export default ThingsPage
 
-export const pageQuery = graphql`
-  query {
+export const thingsQuery = graphql`
+  query ThingsQuery {
     site {
       siteMetadata {
         title
+      }
+    }
+    allMdx(filter: { fileAbsolutePath: { regex: "/content/things/" } }) {
+      nodes {
+        frontmatter {
+          title
+          description
+          link
+        }
       }
     }
   }

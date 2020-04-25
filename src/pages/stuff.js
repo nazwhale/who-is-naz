@@ -58,8 +58,8 @@ export const stuffQuery = graphql`
     allMdx(filter: { fileAbsolutePath: { regex: "/content/stuff/" } }) {
       nodes {
         frontmatter {
-          link
           title
+          link
         }
       }
     }
