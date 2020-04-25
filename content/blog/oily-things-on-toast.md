@@ -11,7 +11,7 @@ tags:
 
 A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see on the shelves of Turkish shops and that.
 
-I soon started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
+I started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
 
 ## **Steps**
 
