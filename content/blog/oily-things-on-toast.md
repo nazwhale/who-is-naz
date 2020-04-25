@@ -18,12 +18,12 @@ I soon started using these jars of oily goodness for my midnight snacks. What ha
 1. Get your jars out, chop up some of what’s inside
 2. Toast some bread
 3. Put your stuff on the toast
-4. Cover with olive oil and salt and pepper 
+4. Cover with lots of olive oil and salt and pepper 
 5. You just made a fancy bruschetta type thing in 5 minutes
 
 ## **Foods**
 
-Here’s some of the sorts of things work well. You don’t need all of these things by any means, 2 or 3 bits will do. 
+Here’s some of the sorts of things work well. You don’t need all of them by any means, 2 or 3 bits will do. 
 
 That said, you can really pile it on if you’re feeling fancy.
 
