@@ -9,27 +9,27 @@ tags:
 ---
 ![oily veg on toast](/assets/00000img_00000_burst20200425113232068_cover.jpg)
 
-A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see shelves of at Turkish shops and the like.
+A little while back I started keeping jars of oily veg in my fridge, mainly because they’re healthy and last forever. The sorts of jars you see shelves of at Turkish shops and that.
 
-I soon started using these jars of oily goodness for my midnight snacks. What happened was so good. It feels like cheating. 
+I soon started using these jars of oily goodness for my midnight snacks. What happened was so good. It felt like cheating. 
 
 ## **Steps**
 
-1. Get your jars out, chop up some of what’s inside. 
+1. Get your jars out, chop up some of what’s inside
 2. Toast some bread
-3. Put your stuff on the toast. 
-4. Cover with olive oil and salt and pepper. 
+3. Put your stuff on the toast
+4. Cover with olive oil and salt and pepper 
 5. You just made a fancy bruschetta type thing in 5 minutes
 
 ## **Foods**
 
-Here’s some of the sorts of things that I find work well. You don’t need all of these things by any means, 2 or 3 types of veg will do. 
-
-Something tart and something fresh is usually a good bet. A bit of spice and tang if you want to go to lip-smacking places.
+Here’s some of the sorts of things work well. You don’t need all of these things by any means, 2 or 3 bits will do. 
 
 That said, you can really pile it on if you’re feeling fancy.
 
-**Veg in jar**
+Something tart and salty against something fresh and herby is usually a good bet. A bit of spice and tang will transport you to lip-smacking levels.
+
+**Veg in jars**
 
 * Red pepper
 * Artichokes
@@ -44,8 +44,8 @@ That said, you can really pile it on if you’re feeling fancy.
 
 **Extras**
 
+* Any crumbly cheese (manchego, feta, etc.)
 * Lemon juice
-* Any crumbly cheese (Manchego, feta, etc.)
 * Chilli flakes
 * Oregano
 * Rosemary
