@@ -8,7 +8,7 @@ featured_image_url: >-
 tags:
   - words
 ---
-Susie and myself walked into the ice cream parlour. It was called ‘Sundae Morning’. Susie giggled. I did not.
+Susie and me walked into the ice cream parlour. It was called ‘Sundae Morning’. Susie giggled. I did not.
 
 We met the owner, a bland, featureless man by the name of Jones. His shop was completely devoid of decoration or colour, save for the ice cream itself. Jones explained his philosophy with eloquence and pride.
 
