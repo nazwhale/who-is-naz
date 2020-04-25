@@ -42,11 +42,14 @@ Something tart and salty against something fresh and herby is usually a good bet
 * Cherry tomatoes (still not listening)
 * Garlic
 
-**Extras**
+**Herby things**
+
+* Oregano
+* Rosemary
+* Basil
+
+**Not herby things**
 
 * Any crumbly cheese (manchego, feta, etc.)
 * Lemon juice
 * Chilli flakes
-* Oregano
-* Rosemary
-* Basil
