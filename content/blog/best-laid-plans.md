@@ -1,7 +1,7 @@
 ---
 path: best-laid-plans
 date: 2020-05-01T15:19:04.192Z
-title: best laid plans
+title: The best laid plans
 description: I had an idea the other day. It's still kinda raw. Here's some musings.
 featured_image_url: 'https://i.imgur.com/lIlzMxy.png'
 tags:
