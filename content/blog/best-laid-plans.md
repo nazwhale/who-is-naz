@@ -34,4 +34,9 @@ In the bottom half, beyond the present, each line represents a possible future.
 
 Some of those the user can fill in. Perhaps they see themselves leaving their job in a few months, moving to South America, or simply continuing along the same path.
 
-Now, the system generates potential futures that the user might not have considered, based on the lives of other users.
+The system then generates potential futures that the user might not have considered based on the lives of other users. And those lives also diverge to certain paths, and the divergences diverge and so on. 
+
+So you'll see not only your future plans, but where those plans could lead to based on real lives from the past.
+
+Perhaps plans that have materialised for more people are bolder in the design. Perhaps alternate future plans are generated for you, so that you might consider life paths that you'd not previously thought of.
+
