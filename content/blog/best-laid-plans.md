@@ -24,3 +24,14 @@ When you hover over an experience (i.e. a portion of your lifeline) a little inf
 Perhaps you could add other people to an experience and it’d invite them by showing them a partially filled line, prompting them to fill in the gaps.
 
 Perhaps other people filling in their lifelines could make your own lifeline richer, by lengthening the lifelines flying off to the left and right.
+
+
+![lower half](https://i.imgur.com/pPGnWcg.png)
+
+Here's where it gets interesting. 
+
+In the bottom half, beyond the present, each line represents a possible future.
+
+Some of those the user can fill in. Perhaps they see themselves leaving their job in a few months, moving to South America, or simply continuing along the same path.
+
+Now, the system generates potential futures that the user might not have considered, based on the lives of other users.
