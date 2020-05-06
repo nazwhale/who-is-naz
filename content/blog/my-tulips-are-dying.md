@@ -1,7 +1,7 @@
 ---
 path: my-tulips-are-dying
 date: 2020-05-06T12:32:57.445Z
-title: My Tulips Are Dying
+title: My tulips are dying
 description: Bye tulips
 featured_image_url: 'https://i.imgur.com/xBmB8iS.jpg'
 tags:
