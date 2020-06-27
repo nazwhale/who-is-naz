@@ -29,6 +29,13 @@ const Section = styled.div`
   padding: 1rem;
 `
 
+const LinksContainer = styled.div`
+    padding-left: 2.5rem;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.2rem;
+`
+
 const SmallText = styled.p`
   font-weight: lighter;
   margin: 0;
@@ -39,6 +46,10 @@ const WelcomeText = styled.h1`
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-weight: normal;
+`
+
+const StyledLink = styled(Link)`
+  box-shadow: none;
 `
 
 class IndexPage extends React.Component {
@@ -94,15 +105,17 @@ class IndexPage extends React.Component {
             </Section>
 
             <Section last={true}>
-              <SmallText>
-                <Link to="/blog/">01. words</Link>
-              </SmallText>
-              <SmallText>
-                <Link to="/things/">02. things</Link>
-              </SmallText>
-              <SmallText>
-                <Link to="/stuff/">03. stuff</Link>
-              </SmallText>
+              <LinksContainer>
+                <SmallText>
+                  <StyledLink to="/blog/">01. words</StyledLink>
+                </SmallText>
+                <SmallText>
+                  <StyledLink to="/things/">02. things</StyledLink>
+                </SmallText>
+                <SmallText>
+                  <StyledLink to="/stuff/">03. stuff</StyledLink>
+                </SmallText>
+              </LinksContainer>
             </Section>
           </GridLeftColumn>
           <GridRightColumn>
@@ -122,7 +135,7 @@ class IndexPage extends React.Component {
               style={{
                 backgroundColor: "#1F1D1F",
                 width: "100%",
-                height: "3.7rem",
+                height: "2.35rem",
               }}
             />
           </GridRightColumn>
