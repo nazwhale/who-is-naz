@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-personal-starter-blog",
+  "name": "who-is-naz",
   "private": true,
-  "description": "A personal blog starter for a blog powered by Netlify CMS, based on the default blog starter",
+  "description": "who is naz",
   "version": "1.0.0",
-  "author": "Thomas Wang <thomas@wang.sh>",
+  "author": "Naz Malik <whoisnazm@gmail.com>",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -11,12 +11,12 @@
     "@mdx-js/mdx": "^1.5.1",
     "@mdx-js/react": "^1.5.1",
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.3.25",
+    "gatsby": "^2.23.11",
     "gatsby-image": "^2.0.39",
     "gatsby-plugin-feed-mdx": "^1.0.0",
     "gatsby-plugin-google-analytics": "^2.0.18",
     "gatsby-plugin-manifest": "^2.0.29",
-    "gatsby-plugin-mdx": "^1.0.52",
+    "gatsby-plugin-mdx": "^1.2.18",
     "gatsby-plugin-netlify-cms": "^4.0.0",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.12",
@@ -40,6 +40,7 @@
     "styled-components": "^4.2.0",
     "typeface-merriweather": "0.0.72",
     "typeface-montserrat": "0.0.54",
+    "typeface-questrial": "0.0.72",
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },

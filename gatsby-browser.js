@@ -1,3 +1,3 @@
 // custom typefaces
-import "typeface-montserrat"
+import "typeface-questrial"
 import "typeface-merriweather"

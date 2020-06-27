@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Who is Naz?`,
+    title: `who is naz`,
     author: `Naz`,
-    description: `Who is Naz?`,
+    description: `who is naz`,
     siteUrl: `https://www.whoisnaz.com/`,
     social: {
       twitter: `nazwhale`,
