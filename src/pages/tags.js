@@ -27,7 +27,7 @@ class Tags extends React.Component {
               </li>
             ))}
           </ul>
-          <Link to="/">Go Home</Link>
+          <Link to="/">Go home</Link>
         </div>
       </Layout>
     )

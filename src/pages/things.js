@@ -15,7 +15,6 @@ class ThingsPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="Things" />
         <h1>Things</h1>
-        <p>Here's a few things that I've made or helped make...</p>
         <div style={{ margin: "20px 0 40px" }}>
           {things.map(thing => {
             const { title, description, link } = thing.frontmatter
@@ -44,7 +43,7 @@ class ThingsPage extends React.Component {
             )
           })}
         </div>
-        <Link to="/">Go Home</Link>
+        <Link to="/">Go home</Link>
       </Layout>
     )
   }
