@@ -115,7 +115,7 @@ class IndexPage extends React.Component {
             <img
               style={{ marginBottom: "-8px" }}
               src={cowboy}
-              alt="Potentially Naz"
+              alt="Potentially naz"
             />
             <div
               style={{
