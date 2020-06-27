@@ -11,7 +11,8 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  border: 0.5rem black solid
+  border: 0.5rem #1F1D1F solid;
+  color: #1F1D1F;
 `
 
 const GridLeftColumn = styled.div`
@@ -23,8 +24,8 @@ const GridRightColumn = styled.div`
 `
 
 const Section = styled.div`
-  ${props => !props.last && "border-bottom: 0.5rem black solid"};
-  border-right: 0.5rem black solid;
+  ${props => !props.last && "border-bottom: 0.5rem #1F1D1F solid"};
+  border-right: 0.5rem #1F1D1F solid;
   padding: 1rem;
 `
 
@@ -107,7 +108,7 @@ class IndexPage extends React.Component {
           <GridRightColumn>
             <div
               style={{
-                backgroundColor: "black",
+                backgroundColor: "#1F1D1F",
                 width: "100%",
                 height: "2.7rem",
               }}
@@ -119,7 +120,7 @@ class IndexPage extends React.Component {
             />
             <div
               style={{
-                backgroundColor: "black",
+                backgroundColor: "#1F1D1F",
                 width: "100%",
                 height: "3.7rem",
               }}
