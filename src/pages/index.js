@@ -105,6 +105,13 @@ class IndexPage extends React.Component {
             </Section>
           </GridLeftColumn>
           <GridRightColumn>
+            <div
+              style={{
+                backgroundColor: "black",
+                width: "100%",
+                height: "2.7rem",
+              }}
+            />
             <img
               style={{ marginBottom: "-8px" }}
               src={cowboy}
@@ -114,7 +121,7 @@ class IndexPage extends React.Component {
               style={{
                 backgroundColor: "black",
                 width: "100%",
-                height: "25%",
+                height: "3.7rem",
               }}
             />
           </GridRightColumn>
