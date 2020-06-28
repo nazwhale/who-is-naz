@@ -1,7 +1,8 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Tag from "../components/tag"
@@ -37,9 +38,9 @@ class BlogPostTemplate extends React.Component {
         {post.frontmatter.tags.map(tag => {
           return (
             <div key={tag}>
-              <Link style={{ boxShadow: `none` }} to={`/tags/${tag}`}>
+              <StyledLink to={`/tags/${tag}`}>
                 <Tag marginBottom="1.75rem">{tag}</Tag>
-              </Link>
+              </StyledLink>
             </div>
           )
         })}
@@ -61,24 +62,16 @@ class BlogPostTemplate extends React.Component {
         >
           <li>
             {previous && (
-              <Link
-                to={`/blog${previous.fields.slug}`}
-                rel="prev"
-                style={{ boxShadow: "none" }}
-              >
+              <StyledLink to={`/blog${previous.fields.slug}`} rel="prev">
                 ← {previous.frontmatter.title}
-              </Link>
+              </StyledLink>
             )}
           </li>
           <li>
             {next && (
-              <Link
-                to={`/blog${next.fields.slug}`}
-                rel="next"
-                style={{ boxShadow: "none" }}
-              >
+              <StyledLink to={`/blog${next.fields.slug}`} rel="next">
                 {next.frontmatter.title} →
-              </Link>
+              </StyledLink>
             )}
           </li>
         </ul>

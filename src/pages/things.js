@@ -26,14 +26,13 @@ class ThingsPage extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <a
-                    style={{ boxShadow: `none` }}
+                  <StyledLink
                     target="_blank"
                     rel="noopener noreferrer"
                     href={link}
                   >
                     {title}
-                  </a>
+                  </StyledLink>
                 </h3>
                 <p
                   dangerouslySetInnerHTML={{
@@ -44,7 +43,9 @@ class ThingsPage extends React.Component {
             )
           })}
         </div>
-        <StyledLink to="/">Go home</StyledLink>
+        <StyledLink to="/" small={true}>
+          Go home
+        </StyledLink>
       </Layout>
     )
   }

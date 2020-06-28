@@ -28,20 +28,21 @@ class StuffPage extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <a
-                    style={{ boxShadow: `none` }}
+                  <StyledLink
                     target="_blank"
                     rel="noopener noreferrer"
                     href={href}
                   >
                     {title}
-                  </a>
+                  </StyledLink>
                 </h3>
               </div>
             )
           })}
         </div>
-        <StyledLink to="/">Go home</StyledLink>
+        <StyledLink to="/" small={true}>
+          Go home
+        </StyledLink>
       </Layout>
     )
   }

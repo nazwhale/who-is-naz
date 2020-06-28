@@ -1,7 +1,8 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
+import StyledLink from "../components/styledLink"
 import SEO from "../components/seo"
 
 class NotFoundPage extends React.Component {
@@ -14,7 +15,7 @@ class NotFoundPage extends React.Component {
         <SEO title="404" />
         <h1>Page not found</h1>
         <p>
-          You're lost, <Link to="/">go home</Link>
+          You're lost, <StyledLink to="/">go home</StyledLink>
         </p>
       </Layout>
     )

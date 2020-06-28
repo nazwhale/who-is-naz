@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
@@ -19,16 +19,15 @@ class Tags extends React.Component {
           <ul style={{ listStyleType: "none" }}>
             {group.map(tag => (
               <li key={tag.fieldValue}>
-                <Link
-                  style={{ boxShadow: `none` }}
-                  to={`/tags/${tag.fieldValue}/`}
-                >
+                <StyledLink to={`/tags/${tag.fieldValue}/`}>
                   {tag.fieldValue} ({tag.totalCount})
-                </Link>
+                </StyledLink>
               </li>
             ))}
           </ul>
-          <StyledLink to="/">Go home</StyledLink>
+          <StyledLink to="/" small={true}>
+            Go home
+          </StyledLink>
         </div>
       </Layout>
     )

@@ -1,7 +1,8 @@
 import React from "react"
 import styled from "styled-components"
 import cowboy from "../../content/assets/cowboy.jpeg"
-import lines from "../../content/assets/lines.png"
+import lines0 from "../../content/assets/lines0.png"
+import lines1 from "../../content/assets/lines1.png"
 
 import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
@@ -11,9 +12,8 @@ const Container = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
-  border: 0.5rem #1F1D1F solid;
-  color: #1F1D1F;
-
+  border: 0.5rem #1f1d1f solid;
+  color: #1f1d1f;
 
   @media (max-width: 801px) {
     grid-template-columns: auto;
@@ -31,13 +31,12 @@ const GridRightColumn = styled.div`
   @media (max-width: 801px) {
     grid-column: 1/2;
   }
-
 `
 
 const Section = styled.div`
   padding: 1rem;
   ${props => !props.last && "border-bottom: 0.5rem #1F1D1F solid"};
-  border-right: 0.5rem #1F1D1F solid;
+  border-right: 0.5rem #1f1d1f solid;
 
   @media (max-width: 801px) {
     border-right: none;
@@ -45,10 +44,10 @@ const Section = styled.div`
 `
 
 const LinksContainer = styled.div`
-    padding-left: 2.5rem;
-    text-transform: uppercase;
-    font-size: 12px;
-    letter-spacing: 0.2rem;
+  padding-left: 2.5rem;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.2rem;
 `
 
 const SmallText = styled.p`
@@ -66,18 +65,21 @@ const WelcomeText = styled.h1`
 `
 
 const ImageBlackBlock = styled.div`
-  background-color: #1F1D1F;
+  background-color: #1f1d1f;
   width: 100%;
   height: ${props => props.height};
   @media (max-width: 801px) {
     height: 0;
   }
-
 `
 
 class IndexPage extends React.Component {
   render() {
     const siteTitle = "who is naz"
+
+    // Pick a random image
+    const rand = Math.round(Math.random())
+    const linesImg = rand === 0 ? lines0 : lines1
 
     return (
       <Layout location={this.props.location}>
@@ -113,7 +115,7 @@ class IndexPage extends React.Component {
                     marginRight: "1rem",
                     width: "144px",
                   }}
-                  src={lines}
+                  src={linesImg}
                   alt="lines"
                 />
                 <h3
@@ -145,13 +147,19 @@ class IndexPage extends React.Component {
             <Section last={true}>
               <LinksContainer>
                 <SmallText>
-                  <StyledLink to="/blog/">01. words</StyledLink>
+                  <StyledLink to="/blog/" small={true}>
+                    01. words
+                  </StyledLink>
                 </SmallText>
                 <SmallText>
-                  <StyledLink to="/things/">02. things</StyledLink>
+                  <StyledLink to="/things/" small={true}>
+                    02. things
+                  </StyledLink>
                 </SmallText>
                 <SmallText>
-                  <StyledLink to="/stuff/">03. stuff</StyledLink>
+                  <StyledLink to="/stuff/" small={true}>
+                    03. stuff
+                  </StyledLink>
                 </SmallText>
               </LinksContainer>
             </Section>

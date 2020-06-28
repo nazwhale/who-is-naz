@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 import Layout from "../components/layout"
 
 import StyledLink from "../components/styledLink"
@@ -33,12 +33,9 @@ class TagRoute extends React.Component {
                           marginBottom: rhythm(1 / 4),
                         }}
                       >
-                        <Link
-                          style={{ boxShadow: `none` }}
-                          to={`/blog${node.fields.slug}`}
-                        >
+                        <StyledLink to={`/blog${node.fields.slug}`}>
                           {node.frontmatter.title}
-                        </Link>
+                        </StyledLink>
                       </h3>
                       <small>{node.frontmatter.date}</small>
                       <p
@@ -51,7 +48,9 @@ class TagRoute extends React.Component {
                 })}
 
                 <p style={{ marginTop: "1.75rem" }}>
-                  <StyledLink to="/tags/">Browse tags</StyledLink>
+                  <StyledLink to="/tags/" small={true}>
+                    Browse tags
+                  </StyledLink>
                 </p>
               </div>
             </div>

@@ -1,5 +1,5 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
 import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
@@ -27,13 +27,10 @@ class Blog extends React.Component {
                     marginBottom: rhythm(1 / 4),
                   }}
                 >
-                  <Link
-                    style={{ boxShadow: `none` }}
-                    to={`/blog${node.fields.slug}`}
-                  >
+                  <StyledLink to={`/blog${node.fields.slug}`}>
                     {" "}
                     {title}
-                  </Link>
+                  </StyledLink>
                 </h3>
                 <small>
                   {`${node.frontmatter.date} • ${node.timeToRead} min read`}
@@ -48,7 +45,9 @@ class Blog extends React.Component {
           })}
         </div>
 
-        <StyledLink to="/">Go home</StyledLink>
+        <StyledLink to="/" small={true}>
+          Go home
+        </StyledLink>
       </Layout>
     )
   }
