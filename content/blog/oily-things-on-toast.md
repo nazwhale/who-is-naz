@@ -2,7 +2,7 @@
 path: oily-things-on-toast
 date: 2020-04-25T11:04:56.770Z
 title: Oily things on toast
-description: Here’s a lazy tasty thing you can do
+description: Here’s a lazy tasty thing you can make
 featured_image_url: 'https://i.imgur.com/5IrUKSX.jpg'
 tags:
   - food
