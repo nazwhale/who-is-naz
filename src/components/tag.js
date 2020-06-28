@@ -12,16 +12,32 @@ const TagWrapper = styled.button`
   padding: 6px 18px;
   cursor: pointer;
 
-  background: ${props => props.props.background || "rgba(0, 0, 0, 0.05)"};
-  color: ${props => props.props.color || "rgba(0, 0, 0, 0.54)"};
+  background: ${props => props.props.background || "#1f1d1f"};
+  color: ${props => props.props.color || "#DFD9B2"};
   font-size: ${props => props.props.fontSize || "12px"};
   font-weight: ${props => props.props.fontWeight || "400"};
   border-radius: ${props => props.props.radius || "6px"};
   margin-top: ${props => props.props.marginTop};
   margin-bottom: ${props => props.props.marginBottom};
 
-  &:hover {
-    box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.25);
+  /* Scale background */
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    border-radius: 6px;
+    background-color: #1f1d1f;
+    transition: transform 250ms;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  &:hover::after {
+    transform: scale(1.1);
   }
 `
 

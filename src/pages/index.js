@@ -4,6 +4,7 @@ import cowboy from "../../content/assets/cowboy.jpeg"
 import lines0 from "../../content/assets/lines0.png"
 import lines1 from "../../content/assets/lines1.png"
 
+import FadeIn from "../components/fadeIn"
 import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -93,17 +94,20 @@ class IndexPage extends React.Component {
               <SmallText>8J+mgAo=</SmallText>
             </Section>
           </GridLeftColumn>
+
           <GridRightColumn>
-            <ImageBlackBlock height="0.5rem" />
-            <img
-              style={{
-                marginBottom: "-8px",
-                borderBottom: "0.5rem #1F1D1F solid",
-              }}
-              src={cowboy}
-              alt="Potentially naz"
-            />
-            <ImageBlackBlock height="1.85rem" />
+            <FadeIn duration={100}>
+              <ImageBlackBlock height="0.5rem" />
+              <img
+                style={{
+                  marginBottom: "-8px",
+                  borderBottom: "0.5rem #1F1D1F solid",
+                }}
+                src={cowboy}
+                alt="Potentially naz"
+              />
+              <ImageBlackBlock height="1.85rem" />
+            </FadeIn>
           </GridRightColumn>
 
           <GridLeftColumn>

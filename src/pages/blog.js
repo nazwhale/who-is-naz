@@ -28,7 +28,6 @@ class Blog extends React.Component {
                   }}
                 >
                   <StyledLink to={`/blog${node.fields.slug}`}>
-                    {" "}
                     {title}
                   </StyledLink>
                 </h3>
