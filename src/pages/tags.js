@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -27,7 +28,7 @@ class Tags extends React.Component {
               </li>
             ))}
           </ul>
-          <Link to="/">Go home</Link>
+          <StyledLink to="/">Go home</StyledLink>
         </div>
       </Layout>
     )

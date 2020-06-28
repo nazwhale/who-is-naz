@@ -14,7 +14,7 @@ class NotFoundPage extends React.Component {
         <SEO title="404" />
         <h1>Page not found</h1>
         <p>
-          You're lost, <Link to="/">go home</Link>.
+          You're lost, <Link to="/">go home</Link>
         </p>
       </Layout>
     )

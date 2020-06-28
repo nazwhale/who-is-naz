@@ -1,8 +1,10 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
 import { rhythm } from "../utils/typography"
 
 class StuffPage extends React.Component {
@@ -39,7 +41,7 @@ class StuffPage extends React.Component {
             )
           })}
         </div>
-        <Link to="/">Go home</Link>
+        <StyledLink to="/">Go home</StyledLink>
       </Layout>
     )
   }
