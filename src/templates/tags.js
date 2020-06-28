@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import Layout from "../components/layout"
 
+import StyledLink from "../components/styledLink"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
@@ -18,7 +19,7 @@ class TagRoute extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <section>
-          <SEO title={`${tag} | ${siteTitle}`} />
+          <SEO title={`${tag}`} />
           <div>
             <div>
               <div style={{ marginBottom: "6rem" }}>
@@ -50,7 +51,7 @@ class TagRoute extends React.Component {
                 })}
 
                 <p style={{ marginTop: "1.75rem" }}>
-                  <Link to="/tags/">Browse all tags</Link>
+                  <StyledLink to="/tags/">Browse tags</StyledLink>
                 </p>
               </div>
             </div>

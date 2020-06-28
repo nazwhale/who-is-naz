@@ -14,7 +14,7 @@ class ThingsPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Things" />
+        <SEO title="things" />
         <h1>Things</h1>
         <div style={{ margin: "20px 0 40px" }}>
           {things.map(thing => {

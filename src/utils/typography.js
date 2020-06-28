@@ -18,6 +18,14 @@ Wordpress2016.overrideThemeStyles = () => {
     body: {
       backgroundColor: "#DFD9B2",
     },
+    ul: {
+      listStylePosition: "inside!important",
+      marginLeft: "0!important",
+    },
+    ol: {
+      listStylePosition: "inside!important",
+      marginLeft: "0!important",
+    },
   }
 }
 

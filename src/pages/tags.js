@@ -13,7 +13,7 @@ class Tags extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={`Tags | ${siteTitle}`} />
+        <SEO title={`tags`} />
         <div style={{ marginBottom: "6rem" }}>
           <h1>Tags</h1>
           <ul style={{ listStyleType: "none" }}>
