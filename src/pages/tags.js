@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -12,7 +13,7 @@ class Tags extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={`Tags | ${siteTitle}`} />
+        <SEO title={`tags`} />
         <div style={{ marginBottom: "6rem" }}>
           <h1>Tags</h1>
           <ul style={{ listStyleType: "none" }}>
@@ -27,7 +28,7 @@ class Tags extends React.Component {
               </li>
             ))}
           </ul>
-          <Link to="/">Go Home</Link>
+          <StyledLink to="/">Go home</StyledLink>
         </div>
       </Layout>
     )

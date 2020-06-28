@@ -1,7 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 
-import Bio from "../components/bio"
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -14,11 +14,12 @@ class Blog extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="All posts" />
-        <Bio />
+        <SEO title="all posts" />
+        <h1>Words</h1>
         <div style={{ margin: "20px 0 40px" }}>
           {posts.map(({ node }) => {
             const title = node.frontmatter.title || node.fields.slug
+
             return (
               <div key={node.fields.slug}>
                 <h3
@@ -28,8 +29,9 @@ class Blog extends React.Component {
                 >
                   <Link
                     style={{ boxShadow: `none` }}
-                    to={`blog${node.fields.slug}`}
+                    to={`/blog${node.fields.slug}`}
                   >
+                    {" "}
                     {title}
                   </Link>
                 </h3>
@@ -45,7 +47,8 @@ class Blog extends React.Component {
             )
           })}
         </div>
-        <Link to="/">Go Home</Link>
+
+        <StyledLink to="/">Go home</StyledLink>
       </Layout>
     )
   }

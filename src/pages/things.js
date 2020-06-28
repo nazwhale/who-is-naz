@@ -1,6 +1,7 @@
 import React from "react"
-import { Link, graphql } from "gatsby"
+import { graphql } from "gatsby"
 
+import StyledLink from "../components/styledLink"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -13,9 +14,8 @@ class ThingsPage extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title="Things" />
+        <SEO title="things" />
         <h1>Things</h1>
-        <p>Here's a few things that I've made or helped make...</p>
         <div style={{ margin: "20px 0 40px" }}>
           {things.map(thing => {
             const { title, description, link } = thing.frontmatter
@@ -44,7 +44,7 @@ class ThingsPage extends React.Component {
             )
           })}
         </div>
-        <Link to="/">Go Home</Link>
+        <StyledLink to="/">Go home</StyledLink>
       </Layout>
     )
   }
