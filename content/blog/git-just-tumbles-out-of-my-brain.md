@@ -12,3 +12,12 @@ tags:
 git add .
 git reset --hard
 ```
+
+## Move commit from master to a new branch
+```bash
+git checkout master
+git branch new-branch
+git status
+git reset --hard HEAD~ #removes the unwanted commit from master
+git checkout new-branch
+```
