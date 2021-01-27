@@ -38,7 +38,7 @@ git rebase origin/master
 
 ## Should I merge instead of rebase?
 
-```
+```bash
 git merge master
 ```
 
@@ -51,7 +51,7 @@ See master as the source of truth at any given time, with your branched changes 
 
 ## What's the difference between fetch and pull again?
 
-```
+```bash
 git fetch
 ```
 
@@ -61,7 +61,7 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 
 Due to its "harmless" nature, you can rest assured: fetch will never manipulate, destroy, or screw up anything. 
 
-```
+```bash
 git pull
 ```
 
@@ -76,7 +76,7 @@ This means that pull not only downloads new data. It also directly integrates it
 
 The most recent commit on the current branch is the HEAD of the branch. Commands that take a commit as a parameter will use HEAD by default.
 
-```
+```bash
 git show
 # is the same as...
 git show HEAD
@@ -88,7 +88,7 @@ git reset --hard HEAD
 
 Other ridiculous crap:
 
-```
+```bash
 # The at sign (@) is synonymous with HEAD. So we could use...
 git show @ 
 
