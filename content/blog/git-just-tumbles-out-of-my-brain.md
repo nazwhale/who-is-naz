@@ -39,7 +39,9 @@ git rebase origin/master
 ## Should I merge instead of rebase?
 
 ```bash
-git merge master
+git merge master 
+# or
+git rebase origin/master
 ```
 
 Merging in master isn't always what you want
@@ -55,11 +57,9 @@ See master as the source of truth at any given time, with your branched changes 
 git fetch
 ```
 
-Git fetch only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. 
+Git fetch only downloads new data from a remote repository - but it doesn't integrate any of this new data into your working files. Fetch will never manipulate, destroy, or screw up anything. 
 
 Fetch is great for getting a fresh view on all the things that happened in a remote repository.
-
-Due to its "harmless" nature, you can rest assured: fetch will never manipulate, destroy, or screw up anything. 
 
 ```bash
 git pull
@@ -71,6 +71,16 @@ This means that pull not only downloads new data. It also directly integrates it
 
 * Since git pull tries to merge remote changes with your local ones, a "merge conflict" can occur.
 * It's highly recommended to start a `git pull` only with a clean working directory (i.e. no uncommitted local changes). Use git stash to save your local changes temporarily.
+
+
+## When to use origin, origin/master, origin:master
+```bash
+git fetch origin
+git fetch origin/master
+git fetch origin:master
+```
+
+todo 🏗
 
 ## What's up with HEAD?
 
