@@ -102,4 +102,4 @@ HEAD~5 # ...is equivalent to HEAD^^^^^
 HEAD~  # ...is equivalent to HEAD^ 😖
 ```
 
-You can quite happily forget that the caret (^) exists and always use HEAD~2 etc.
+You can quite happily forget that the at sign (@) and caret (^) exist and always use HEAD or HEAD~[3] etc.
