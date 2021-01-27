@@ -15,7 +15,7 @@ git stash # Good habit so that changes are saved just incase
 git reset --hard
 ```
 
-`git reset --hard` resets the files in both the staging area and the working directory.
+git reset --hard resets the files in both the staging area and the working directory.
 
 ## Move a commit from master to a new branch
 
