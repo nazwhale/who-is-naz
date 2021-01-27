@@ -72,7 +72,7 @@ This means that pull not only downloads new data. It also directly integrates it
 * Since git pull tries to merge remote changes with your local ones, a "merge conflict" can occur.
 * It's highly recommended to start a `git pull` only with a clean working directory (i.e. no uncommitted local changes). Use git stash to save your local changes temporarily.
 
-### What's up with HEAD again?
+## What's up with HEAD?
 
 The most recent commit on the current branch is the HEAD of the branch. Commands that take a commit as a parameter will use HEAD by default.
 
