@@ -47,7 +47,7 @@ git rebase origin/master
 Merging in master isn't always what you want
 
 * If you have a branch branched from commit 1 and you add commit 4 and 5, then merge in master which has commits 2 and 3 to your branch, the order of commits becomes 1, 4, 5, 2, 3
-* Typically, you want to change the base of your branch so your changes are on the latest master, for that, there's rebase which changes the base commit of your branch. This will then make the commit order 1, 2, 3, 4, 5 (so your branch root changes from commit 1 to commit 3
+* Typically, you want to change the base of your branch so your changes are on the latest master. For that, there's rebase which changes the base commit of your branch. This will then make the commit order 1, 2, 3, 4, 5 (so your branch root changes from commit 1 to commit 3
 
 See master as the source of truth at any given time, with your branched changes wanting to be applied on top.
 
@@ -65,15 +65,15 @@ Fetch is great for getting a fresh view on all the things that happened in a rem
 git pull
 ```
 
-Git pull, is used to update your current HEAD branch with the latest changes from the remote server. 
+Git pull is used to update your current HEAD branch with the latest changes from Github. 
 
 This means that pull not only downloads new data. It also directly integrates it into your current working copy files. This has a couple of consequences:
 
 * Since git pull tries to merge remote changes with your local ones, a "merge conflict" can occur.
 * It's highly recommended to start a `git pull` only with a clean working directory (i.e. no uncommitted local changes). Use git stash to save your local changes temporarily.
 
-
 ## When to use origin, origin/master, origin:master
+
 ```bash
 git fetch origin
 git fetch origin/master
@@ -112,4 +112,4 @@ HEAD~5 # ...is equivalent to HEAD^^^^^
 HEAD~  # ...is equivalent to HEAD^ 😖
 ```
 
-You can quite happily forget that the at sign (@) and caret (^) exist and always use HEAD or HEAD~[3] etc.
+You can quite happily forget that the at sign (@) and caret (^) exist and always use HEAD or HEAD~\[3] etc.
