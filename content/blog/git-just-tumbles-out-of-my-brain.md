@@ -9,6 +9,7 @@ tags:
   - git
 ---
 ## Rename a branch
+
 ```bash
 git branch -m <new_name>
 ```
@@ -117,4 +118,4 @@ HEAD~5 # ...is equivalent to HEAD^^^^^
 HEAD~  # ...is equivalent to HEAD^ 😖
 ```
 
-You can quite happily forget that the at sign (@) and caret (^) exist and always use HEAD or HEAD~\[3] etc.
+It's fine to forget the existence of the at sign (@) and caret (^). Instead, always use HEAD~n
