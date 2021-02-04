@@ -33,13 +33,29 @@ git reset --hard HEAD~ # Removes the unwanted commit from master
 git checkout new-branch
 ```
 
-## I've got a merge conflict in Github and want to resolve locally!
+## I've got a merge conflict. I wanna rebase.
 
 ```bash
 # Assuming we're on your feature branch...
 # First pull in latest changes from master
 git fetch origin master:master
 git rebase origin/master
+# you should get this:
+# error: Failed to merge in the changes.
+# Patch failed at...
+# Resolve all conflicts manually... 
+
+# Let's see the damage
+git status
+
+# Now, go into your editor and resolve the conflicts.
+# Then, git add your changes (you don't need to commit)
+git add .
+git rebase --continue
+
+# You might repeat this process a few more times as git replays you changes commit-by-commit
+# When you're done, force push
+git push origin <branch> --force-with-lease
 ```
 
 ## Should I merge instead of rebase?
