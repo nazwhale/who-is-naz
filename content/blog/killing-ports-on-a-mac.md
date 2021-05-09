@@ -9,9 +9,9 @@ tags:
   - coding
 ---
 ```bash
-// To view all processes running on a given port
+# To view all processes running on a given port
 lsof -wni tcp:<port number>
 
-// To kill a process with a given PID
+# To kill a process with a given PID
 kill <PID>
 ```
