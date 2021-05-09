@@ -9,9 +9,21 @@ tags:
   - coding
 ---
 ```bash
-# To view all processes running on a given port
+# View all processes running on a given port
 lsof -wni tcp:<port number>
 
-# To kill a process with a given PID
-kill <PID>
+# Kill a process with a given PID
+kill -9 <PID>
 ```
+
+## Explanation
+
+The `lsof` command lists open files and the processes which opened them.
+
+`-w` Enables (+) or disables (-) the suppression of warning messages.
+
+`-n` inhibits the conversion of network numbers to host names for network files. Inhibiting conversion may make lsof run faster. It is also useful when host name lookup is not working properly.
+
+`-i` lists files whose Internet address matches the address specified in the next argument. If no address is specified, this option lists all Internet and x.25 (HP-UX) network files.
+
+The `-9` flag on the `kill` command tells the OS to stop running the program, no matter what the program is doing (vs. letting the program terminate itself in the normal way).
